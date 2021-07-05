@@ -26,7 +26,7 @@
                 <div class="container" >
                     <span class="navbar-brand">
                         <img src="../icons/icon3.png" width="80" height="80" class="d-inline-block align-top" alt="">
-                        <a href="index.html">FOOD RECOMMENDATIONS </a>
+                        <a href="#">FOOD RECOMMENDATIONS - DEBUG MOOD </a>
                     </span>
                 </div>
             </nav>
@@ -36,7 +36,7 @@
 
                         <!-- Section Title -->
                         <div class="title-wrap">
-                            <h2 class="section-title">Please search for a salty meal</h2>
+                            <h2 class="section-title">Please search for everything you want</h2>
                             
                         </div>
                         <!-- End of Section Title -->
@@ -44,7 +44,7 @@
                         <div class="row mx-auto">
                         <!-- form -->
                             <div class="col-md-10 offset-md-1 contact-form-holder mt-4">
-                               <form id="form" method="post" action="../php/manage_request.php">
+                               <form id="form" method="post" action="../php/debug_manage_request.php">
                                     <!-- parola chiave -->
                                     <div class="form-group row">
                                         <label for="keyword"> <b>Keyword: </b>  </label> <br> <br>
@@ -88,17 +88,31 @@
                                    </div>
                                -->
 
-                                   <!-- 
+                                    
                                     <div class="form-group row">
                                         <label for="dishType" class="col-sm-6 col-form-label">express a keyword that can recommend you a:</label>
                                         <div class="col-sm-2">
                                             <select id="dishType" name="dishType" required>
                                                 <option hidden disabled selected value></option>
                                                 <option value="Starter"> Starter </option>
+                                                <option value="Biscuits and cookies"> Biscuits and cookies </option>
+                                                <option value="Bread"> Bread </option>
+                                                <option value="Cereals"> Cereals </option>
+                                                <option value="Condiments and sauces"> Condiments and sauces </option>
+                                                <option value="Desserts"> Desserts </option>
+                                                <option value="Egg"> Egg </option>
+                                                <option value="Main course"> Main course </option>
+                                                <option value="Omelet"> Omelet </option>
+                                                <option value="Pancake"> Pancake </option>
+                                                <option value="Preps"> Preps </option>
+                                                <option value="Preserve"> Preserve </option>
+                                                <option value="Salad"> Salad </option>
+                                                <option value="Sandwiches"> Sandwiches </option>
+                                                <option value="Soup"> Soup </option>
                                             </select>
                                         </div>
                                     </div>
-                                           -->
+                                           
                                    <input type="hidden" name="dish" id="hiddenField" value="main" />
 
                                     <br>
